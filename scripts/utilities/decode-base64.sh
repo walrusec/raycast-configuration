@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.author https://github.com/walrusec/walrusec
 # @raycast.description Base64 decodes your clipboard.
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 input=$(sanitize "$(pbpaste)")
 echo -e "

@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.author https://github.com/walrusec/walrusec
 # @raycast.description Defangs or Refangs clipboard content depending on context.
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 clip="$(pbpaste)"
 fang "$clip"

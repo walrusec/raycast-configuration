@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.description Parses out a list of items to make a big OR statement
 # @raycast.author https://github.com/walrusec/walrusec
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 input_string=$(sanitize "$(pbpaste)")
 

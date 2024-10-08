@@ -12,6 +12,6 @@
 # Documentation:
 # @raycast.author https://github.com/walrusec/walrusec
 # @raycast.description Uses your clipboard.                              Takes a list of hashes and opens results for each within Virustotal. Handles rows of ips, or a comma separated list.
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 open_bulk_tabs "https://www.virustotal.com/gui/search/"

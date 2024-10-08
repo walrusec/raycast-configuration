@@ -13,7 +13,7 @@
 # Documentation:
 # @raycast.author https://github.com/walrusec/walrusec
 # @raycast.description Generates a query using parameters. This query identifies events on a host
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 host=$(sanitize "$1")
 

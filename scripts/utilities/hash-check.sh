@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.author https://github.com/walrusec/walrusec
 # @raycast.description Looks up common OSINT resources for a copied hash
-source ~/raycast-scripts/bash.lib
+source ../bash.lib
 
 hash=$(sanitize "$(pbpaste)")
 
